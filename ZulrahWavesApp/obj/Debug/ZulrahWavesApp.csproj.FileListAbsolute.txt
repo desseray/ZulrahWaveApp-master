@@ -1,0 +1,12 @@
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\bin\Debug\ZulrahWavesApp.exe.config
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\bin\Debug\ZulrahWavesApp.exe
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\bin\Debug\ZulrahWavesApp.pdb
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.ZulrahWavesApp.resources
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.Properties.Resources.resources
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.csproj.GenerateResource.Cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.exe
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\Zulrah_Proj\ZulrahProj\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.pdb
+C:\Users\Desseray\Desktop\ZulrahWaveApp-master\ZulrahWavesApp\ZulrahWavesApp\bin\Debug\ZulrahWavesApp.exe.config
+C:\Users\Desseray\Desktop\ZulrahWaveApp-master\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.exe
+C:\Users\Desseray\Desktop\ZulrahWaveApp-master\ZulrahWavesApp\ZulrahWavesApp\obj\Debug\ZulrahWavesApp.pdb
