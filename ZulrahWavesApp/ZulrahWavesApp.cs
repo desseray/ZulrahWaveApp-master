@@ -90,6 +90,7 @@ namespace ZulrahWavesApp
                         break;
                     case "Escape":
                         BorderSwitch();
+                        GetTaskWindows("{ESC}");
                         break;
                     case "D0":
                         Reset();
