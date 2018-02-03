@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace ZulrahWavesApp
 {
@@ -68,32 +69,37 @@ namespace ZulrahWavesApp
                 Keys key = (Keys)(((int)m.LParam >> 16) & 0xFFFF);                  // The key of the hotkey that was pressed.
                 KeyModifier modifier = (KeyModifier)((int)m.LParam & 0xFFFF);       // The modifier of the hotkey that was pressed.
                 int id = m.WParam.ToInt32();                                        // The id of the hotkey that was pressed.
-
+                
                 switch (key.ToString())
                 {
                     case "D1":
                         HandleHotkey1();
+                        GetTaskWindows("1");
                         break;
                     case "D2":
                         HandleHotkey2();
+                        GetTaskWindows("2");
                         break;
                     case "D3":
                         HandleHotkey3();
+                        GetTaskWindows("3");
                         break;
                     case "D4":
                         HandleHotkey4();
+                        GetTaskWindows("4");
                         break;
                     case "Escape":
                         BorderSwitch();
+                        GetTaskWindows("{ESC}");
                         break;
                     case "D0":
                         Reset();
+                        GetTaskWindows("0");
                         break;
                 }
 
             }
         }
-
 
         private void HandleHotkey1()
         {
@@ -113,6 +119,8 @@ namespace ZulrahWavesApp
                     rotOneCount = 0;
                     break;
             }
+
+
         }
         private void HandleHotkey2()
         {
@@ -195,9 +203,7 @@ namespace ZulrahWavesApp
             pictureBox4.Image = imageListRot4.Images[1];
         }
 
-
-
-        private void ZulrahWaves_FormClosing(object sender, FormClosingEventArgs e)
+        private void Deregister()
         {
             UnregisterHotKey(this.Handle, 1);
             UnregisterHotKey(this.Handle, 2);
@@ -205,9 +211,57 @@ namespace ZulrahWavesApp
             UnregisterHotKey(this.Handle, 4);
             UnregisterHotKey(this.Handle, 5);
             UnregisterHotKey(this.Handle, 6);
-
         }
 
+        private void ZulrahWaves_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Deregister();
 
+        }
+        private void GetTaskWindows(string key)
+        {
+            Deregister();
+             // Get the desktopwindow handle
+            int nDeshWndHandle = NativeWin32.GetDesktopWindow();
+            // Get the first child window
+            int nChildHandle = NativeWin32.GetWindow(nDeshWndHandle,
+                                NativeWin32.GW_CHILD);
+
+            while (nChildHandle != 0)
+            {
+                //If the child window is this (SendKeys) application then ignore it.
+                if (nChildHandle == this.Handle.ToInt32())
+                {
+                    nChildHandle = NativeWin32.GetWindow
+                        (nChildHandle, NativeWin32.GW_HWNDNEXT);
+                }
+
+                // Get only visible windows
+                if (NativeWin32.IsWindowVisible(nChildHandle) != 0)
+                {
+                    StringBuilder sbTitle = new StringBuilder(1024);
+                    // Read the Title bar text on the windows to put in combobox
+                    NativeWin32.GetWindowText(nChildHandle, sbTitle, sbTitle.Capacity);
+                    String sWinTitle = sbTitle.ToString();
+                    {
+                        if (sWinTitle.Length > 0)
+                        {
+                                                        NativeWin32.SetForegroundWindow(nChildHandle);
+                            SendKeys.Send(key);
+                            break;
+                        }
+                    }
+                }
+                // Look for the next child.
+                nChildHandle = NativeWin32.GetWindow(nChildHandle,
+                               NativeWin32.GW_HWNDNEXT);
+            }
+
+            regHotKeys();
+        }
+        private void ZulrahWavesApp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

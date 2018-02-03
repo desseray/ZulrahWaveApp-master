@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NativeWin32.cs" />
     <Compile Include="ZulrahWavesApp.cs">
       <SubType>Form</SubType>
     </Compile>
