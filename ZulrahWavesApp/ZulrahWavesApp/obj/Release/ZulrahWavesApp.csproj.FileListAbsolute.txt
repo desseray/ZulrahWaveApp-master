@@ -16,3 +16,13 @@ C:\Users\Desseray\Desktop\ZulrahWaveApp-master\ZulrahWavesApp\ZulrahWavesApp\obj
 C:\Users\Desseray\Desktop\ZulrahWaveApp-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.ZulrahWavesApp.resources
 C:\Users\Desseray\Desktop\ZulrahWaveApp-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.Properties.Resources.resources
 C:\Users\Desseray\Desktop\ZulrahWaveApp-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.csproj.GenerateResource.Cache
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\bin\Release\ZulrahWavesApp.exe.config
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\bin\Release\ZulrahWavesApp.exe
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\bin\Release\ZulrahWavesApp.pdb
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.csprojResolveAssemblyReference.cache
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.ZulrahWavesApp.resources
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.Properties.Resources.resources
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.csproj.GenerateResource.Cache
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.csproj.CoreCompileInputs.cache
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.exe
+C:\Users\Desseray\Desktop\Misc\ZulrahWaveApp-master-master\ZulrahWavesApp\ZulrahWavesApp\obj\Release\ZulrahWavesApp.pdb
